@@ -42,7 +42,7 @@
 		</meta>
 		<dc:language>LANG</dc:language>
 		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://archive.org/details/castle01kafk</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
