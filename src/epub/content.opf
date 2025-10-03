@@ -43,7 +43,7 @@
 		<dc:language>LANG</dc:language>
 		<dc:source>PG_URL</dc:source>
 		<dc:source>https://archive.org/details/castle01kafk</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">“Additional Note” by Max Brod included as it’s referenced as being in the 1930 edition at https://archive.org/details/franzkafkatoday0000flor/page/262/mode/1up?q=%22additional+note%22 and at https://archive.org/details/kafkabibliograph00flor/page/152/mode/1up?q=%22additional+note%22 .</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
@@ -66,6 +66,12 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">CONTRIBUTOR_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator-2">CONTRIBUTOR_NACOAF_URI</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<dc:contributor id="editor">Max Brod</dc:contributor>
+		<meta property="file-as" refines="#editor">Brod, Max</meta>
+		<meta property="se:name.person.full-name" refines="#editor">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">CONTRIBUTOR_WIKI_URL</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
