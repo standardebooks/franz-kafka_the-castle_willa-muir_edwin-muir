@@ -36,9 +36,10 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008101973</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A land surveyor accepts an appointment in a distant town, but is surprised to find that he is unwanted there.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The Land Surveyor &lt;abbr&gt;K.&lt;/abbr&gt; has received an appointment to work at the Castle, and after a long journey through the snow he finally arrives at the surrounding village. His welcome though is considerably less than warm: his attempts to find out how he should start his job and who he should speak to are undermined by pompous officials and a general sense of disbelief that he should be there. The Castle remains stubbornly out of reach, and its structures seem almost purposefully designed to trigger &lt;abbr&gt;K.&lt;/abbr&gt;’s spiral into a bureaucratic nightmare.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Castle&lt;/i&gt; was the second of &lt;a href="https://standardebooks.org/ebooks/franz-kafka"&gt;Franz Kafka’s&lt;/a&gt; three great novels to be published after &lt;i&gt;The Trial&lt;/i&gt;, and it was the first to receive an English translation. All three were unfinished at the time of his early death, and Kafka had requested the manuscripts to be destroyed, but his friend, champion and executor Max Brod decided in the end to save and publish them. Despite later retranslation, and a restructuring by Brod to add in additional fragments, this original version remains eminently readable and contains an appendix by Brod describing some of the proposed story and a possible conclusion that Kafka had discussed with him.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/castle01kafk</dc:source>
