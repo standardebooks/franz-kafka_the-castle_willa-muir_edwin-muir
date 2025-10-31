@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/franz-kafka/the-castle/willa-muir_edwin-muir</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-01-01T16:00:33Z</dc:date>
+		<meta property="dcterms:modified">2026-01-01T16:00:33Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,14 +38,14 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A land surveyor accepts an appointment in a distant town, but is surprised to find that he is unwanted there.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The Land Surveyor &lt;abbr&gt;K.&lt;/abbr&gt; has received an appointment to work at the Castle, and after a long journey through the snow he finally arrives at the surrounding village. His welcome though is considerably less than warm: his attempts to find out how he should start his job and who he should speak to are undermined by pompous officials and a general sense of disbelief that he should be there. The Castle remains stubbornly out of reach, and its structures seem almost purposefully designed to trigger &lt;abbr&gt;K.&lt;/abbr&gt;’s spiral into a bureaucratic nightmare.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Castle&lt;/i&gt; was the second of &lt;a href="https://standardebooks.org/ebooks/franz-kafka"&gt;Franz Kafka’s&lt;/a&gt; three great novels to be published after &lt;i&gt;The Trial&lt;/i&gt;, and it was the first to receive an English translation. All three were unfinished at the time of his early death, and Kafka had requested the manuscripts to be destroyed, but his friend, champion and executor Max Brod decided in the end to save and publish them. Despite later retranslation, and a restructuring by Brod to add in additional fragments, this original version remains eminently readable and contains an appendix by Brod describing some of the proposed story and a possible conclusion that Kafka had discussed with him.&lt;/p&gt;
+			&lt;p&gt;The Land Surveyor K. has received an order to work at the Castle. After a long journey through the snow he finally arrives at its surrounding village, but his welcome is considerably less than warm: his attempts to find out how he should start his job and whom he should speak to are undermined by pompous officials and a general sense of disbelief that he should even be there at all. The Castle remains stubbornly out of reach, and its structures seem almost purposefully designed to trigger K.’s spiral into a bureaucratic nightmare.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Castle&lt;/i&gt; was the second of &lt;a href="https://standardebooks.org/ebooks/franz-kafka"&gt;Franz Kafka’s&lt;/a&gt; three great novels to be published after &lt;i&gt;The Trial&lt;/i&gt;, and it was the first to receive an English translation. All three were unfinished at the time of his early death. Despite later re-translation, and a restructuring by Kafka’s literary executor Max Brod to add additional fragments not present in this translation, this original version remains eminently readable and contains an appendix by Brod describing some of the proposed story changes, and a possible conclusion, that Kafka had discussed with him.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/castle01kafk</dc:source>
 		<meta property="se:production-notes">“Additional Note” by Max Brod included as it’s referenced as being in the 1930 edition at https://archive.org/details/franzkafkatoday0000flor/page/262/mode/1up?q=%22additional+note%22 and at https://archive.org/details/kafkabibliograph00flor/page/152/mode/1up?q=%22additional+note%22 . Moved the “Introductory Note” to the beginning as it makes more sense there; the assumption is that it was moved to the end in the later edition to make way for the “Homage” from Thomas Mann that can’t be included here.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">104934</meta>
+		<meta property="se:reading-ease.flesch">66.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Castle_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/franz-kafka_the-castle_willa-muir_edwin-muir</meta>
 		<dc:creator id="author">Franz Kafka</dc:creator>
@@ -85,6 +85,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
