@@ -44,7 +44,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/castle01kafk</dc:source>
 		<meta property="se:production-notes">“Additional Note” by Max Brod included as it’s referenced as being in the 1930 edition at https://archive.org/details/franzkafkatoday0000flor/page/262/mode/1up?q=%22additional+note%22 and at https://archive.org/details/kafkabibliograph00flor/page/152/mode/1up?q=%22additional+note%22 . Moved the “Introductory Note” to the beginning as it makes more sense there; the assumption is that it was moved to the end in the later edition to make way for the “Homage” from Thomas Mann that can’t be included here.</meta>
-		<meta property="se:word-count">104934</meta>
+		<meta property="se:word-count">102527</meta>
 		<meta property="se:reading-ease.flesch">66.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Castle_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/franz-kafka_the-castle_willa-muir_edwin-muir</meta>
