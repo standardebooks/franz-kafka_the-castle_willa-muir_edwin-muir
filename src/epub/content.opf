@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/franz-kafka/the-castle/willa-muir_edwin-muir</dc:identifier>
 		<dc:date>2026-01-01T16:00:33Z</dc:date>
 		<meta property="dcterms:modified">2026-01-01T16:00:33Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,7 +36,7 @@
 		<meta property="term" refines="#subject-1">sh85003641</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008101973</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A land surveyor accepts an appointment in a distant town, but is surprised to find that he is unwanted there.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The Land Surveyor K. has received an order to work at the Castle. After a long journey through the snow he finally arrives at its surrounding village, but his welcome is considerably less than warm: his attempts to find out how he should start his job and whom he should speak to are undermined by pompous officials and a general sense of disbelief that he should even be there at all. The Castle remains stubbornly out of reach, and its structures seem almost purposefully designed to trigger K.’s spiral into a bureaucratic nightmare.&lt;/p&gt;
@@ -43,32 +44,33 @@
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/castle01kafk</dc:source>
-		<meta property="se:production-notes">“Additional Note” by Max Brod included as it’s referenced as being in the 1930 edition at https://archive.org/details/franzkafkatoday0000flor/page/262/mode/1up?q=%22additional+note%22 and at https://archive.org/details/kafkabibliograph00flor/page/152/mode/1up?q=%22additional+note%22 . Moved the “Introductory Note” to the beginning as it makes more sense there; the assumption is that it was moved to the end in the later edition to make way for the “Homage” from Thomas Mann that can’t be included here.</meta>
-		<meta property="se:word-count">102527</meta>
-		<meta property="se:reading-ease.flesch">66.78</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Castle_(novel)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/franz-kafka_the-castle_willa-muir_edwin-muir</meta>
+		<meta property="schema:wordCount">102527</meta>
+		<meta property="schema:educationalLevel">66.78</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Castle_(novel)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/franz-kafka_the-castle_willa-muir_edwin-muir" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Franz Kafka</dc:creator>
 		<meta property="file-as" refines="#author">Kafka, Franz</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Franz_Kafka</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81063091</meta>
+		<link href="https://en.wikipedia.org/wiki/Franz_Kafka" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81063091.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Willa Muir</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Muir, Willa</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Willa_Muir</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n50013039</meta>
+		<link href="https://en.wikipedia.org/wiki/Willa_Muir" refines="#translator-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50013039.html" refines="#translator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">Edwin Muir</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Muir, Edwin</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/Edwin_Muir</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n78086002</meta>
+		<link href="https://en.wikipedia.org/wiki/Edwin_Muir" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78086002.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor">Max Brod</dc:contributor>
 		<meta property="file-as" refines="#editor">Brod, Max</meta>
 		<meta property="alternate-script" refines="#author" xml:lang="he">מקס ברוד</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Max_Brod</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n50041424</meta>
+		<link href="https://en.wikipedia.org/wiki/Max_Brod" refines="#editor" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50041424.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">waw</meta>
@@ -77,7 +79,7 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -87,7 +89,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
