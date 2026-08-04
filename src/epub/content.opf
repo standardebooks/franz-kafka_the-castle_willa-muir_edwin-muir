@@ -37,7 +37,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008101973</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>A land surveyor accepts an appointment in a distant town, but is surprised to find that he is unwanted there.</dc:abstract>
+		<meta property="schema:abstract">A land surveyor accepts an appointment in a distant town, but is surprised to find that he is unwanted there.</meta>
 		<dc:description>
 			&lt;p&gt;The Land Surveyor K. has received an order to work at the Castle. After a long journey through the snow he finally arrives at its surrounding village, but his welcome is considerably less than warm: his attempts to find out how he should start his job and whom he should speak to are undermined by pompous officials and a general sense of disbelief that he should even be there at all. The Castle remains stubbornly out of reach, and its structures seem almost purposefully designed to trigger K.’s spiral into a bureaucratic nightmare.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Castle&lt;/i&gt; was the second of &lt;a href="https://standardebooks.org/ebooks/franz-kafka"&gt;Franz Kafka’s&lt;/a&gt; three great novels to be published after &lt;i&gt;The Trial&lt;/i&gt;, and it was the first to receive an English translation. All three were unfinished at the time of his early death. Despite later re-translation, and a restructuring by Kafka’s literary executor Max Brod to add additional fragments not present in this translation, this original version remains eminently readable and contains an appendix by Brod describing some of the proposed story changes, and a possible conclusion, that Kafka had discussed with him.&lt;/p&gt;
