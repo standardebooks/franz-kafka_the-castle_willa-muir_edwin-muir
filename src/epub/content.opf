@@ -68,7 +68,7 @@
 		<meta property="role" refines="#translator-2" scheme="marc:relators">win</meta>
 		<dc:contributor id="editor">Max Brod</dc:contributor>
 		<meta property="file-as" refines="#editor">Brod, Max</meta>
-		<meta property="alternate-script" refines="#author" xml:lang="he">מקס ברוד</meta>
+		<meta property="alternate-script" refines="#author">מקס ברוד</meta>
 		<link href="https://en.wikipedia.org/wiki/Max_Brod" refines="#editor" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50041424.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
